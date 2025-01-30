@@ -3,15 +3,12 @@ export interface FilePickerOptions {
   chooseFileButtonTitle?: string;
 }
 
-
 export type FilePickerFile = {
   fileName: string;
   type: string;
   path: string;
   uri: string;
 }
-
-
 export type FilePickerCancel = {
   didCancel: boolean;
 }
